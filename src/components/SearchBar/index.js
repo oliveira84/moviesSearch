@@ -6,7 +6,6 @@ const SearchBar = ({searchTerm, setSearchTerm}) => {
     const [state, setState] = useState(searchTerm)
     const inputRef = useRef(null);
     const initial = useRef(true);
-    console.log(state);
 
     useEffect(() => {
       if (initial.current) {
